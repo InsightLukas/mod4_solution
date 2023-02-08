@@ -9,7 +9,8 @@
 // the "speak" method and which you will expose to the global context
 // See Lecture 52, part 1
 // var byeSpeaker =
-( fuction (window) { var speakWord = "Good Bye";
+
+( function (window) { var speakWord = "Good Bye";
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
 
  var byeSpeaker = {};
